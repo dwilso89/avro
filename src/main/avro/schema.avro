@@ -1,0 +1,10 @@
+{ "type": "record",
+ "name": "record",
+ "namespace": "dewilson.projects.avro.record",
+ "doc": "Generic Data Holder",
+ "fields": [
+     {"name": "Data", "type": {"type": "map", "values": {"type": "array", "items": "bytes"}}},
+     {"name": "Metadata",  "type": {"type": "map", "values": {"type": "array", "items": "string"}} }
+ ]
+}
+      
